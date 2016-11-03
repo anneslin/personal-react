@@ -1,0 +1,37 @@
+.homeContainer{
+	text-align: right;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+	height:100vh;
+}
+.about{
+	position: absolute;
+  margin-top: 25vmax;
+  width:275px;  height: 100px;
+}
+a:link{
+	color:#404040;
+	transition:0.25s;
+}
+a:hover{
+	color:#93d6ce;
+}
+a:visited {
+	color: #404040;
+}
+.icons{
+letter-spacing: 10px;
+margin-right: -10px;
+font-size: 13px;
+}
+i{
+	transition:0.25s;
+}
+i:hover{
+	color:#93d6ce;
+	font-size: 16px;
+}
+.photoCredits{
+	padding-top: 96vh;
+	width:99%;
+}

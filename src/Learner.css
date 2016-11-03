@@ -1,0 +1,19 @@
+.readingContainer{
+  position: absolute;
+  margin-top: 25vmax;
+  width:275px;
+  height: 100px;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
+
+.courseworkContainer{
+  position: absolute;
+  margin-top: 25vmax;
+  width:275px;
+  height: 100px;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+}
