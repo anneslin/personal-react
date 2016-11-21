@@ -1,19 +1,26 @@
 .readingContainer{
   position: absolute;
-  margin-top: 25vmax;
+  margin-top: 45vh;
   width:275px;
   height: 100px;
   text-align: right;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-family: 'News Cycle', sans-serif;
+  font-size: .8em;
 }
 
 .courseworkContainer{
   position: absolute;
-  margin-top: 25vmax;
+  margin-top: 45vh;
   width:275px;
-  height: 100px;
+  height: 245px;
   text-align: right;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'News Cycle', sans-serif;
+  font-size: .8em;
+  overflow-y: scroll
+}
+i.arrow{
+  position: absolute;
+  top: calc(45vh + 235px);
+  left:280px;
   font-size: 10px;
 }

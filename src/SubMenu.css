@@ -1,18 +1,16 @@
 .itemsContainer{
-margin-top: 30px;
+margin-top: 50px;
   width: 80%;
   transform: translateX(10%);
 
 }
 .item{
 	transition:0.25s;
-	font-size: 10px;
-
-
+	font-family: 'News Cycle', sans-serif;
+  	font-size: .8em;
 
 }
 .item:hover{
 	cursor: pointer;
 	color: #93d6ce;
-	font-size: 11px;
 }

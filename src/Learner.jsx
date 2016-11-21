@@ -3,7 +3,7 @@ import "./Learner.css"
 class Reading extends Component {
   coursework(){
     return(
-      <div className="courseworkContainer">
+      <div><div className="courseworkContainer">
         Multivariable Calculus : MATH53<br />
         Linear Algebra and Differential Equations : MATH54<br />
         Introduction to Analysis : MATH104<br />
@@ -19,7 +19,9 @@ class Reading extends Component {
         Introduction to Computer Science Theory : CS170<br />
         Introduction to Artifcial Intelligence : CS188<br />
         Web Design Decal : CS198<br />
-        Ruby on Rails Decal : CS198<br /><br />
+        Ruby on Rails Decal : CS198
+      </div>
+      <i className="fa fa-arrows-v arrow"/>
       </div>);
   }
   reading(){

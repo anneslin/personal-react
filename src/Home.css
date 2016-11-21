@@ -1,12 +1,13 @@
 .homeContainer{
 	text-align: right;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 10px;
+	font-size: .8em;
 	height:100vh;
 }
 .about{
-	position: absolute;
-  margin-top: 25vmax;
+  font-family: 'News Cycle', sans-serif;
+  position: absolute;
+  margin-top: 45vh;
   width:275px;  height: 100px;
 }
 a:link{
@@ -22,16 +23,17 @@ a:visited {
 .icons{
 letter-spacing: 10px;
 margin-right: -10px;
-font-size: 13px;
+font-size: 1em;
 }
 i{
 	transition:0.25s;
 }
-i:hover{
+i.linked:hover{
 	color:#93d6ce;
-	font-size: 16px;
 }
 .photoCredits{
+
+	font-size: 10px;
 	padding-top: 96vh;
 	width:99%;
 }

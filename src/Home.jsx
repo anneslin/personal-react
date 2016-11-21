@@ -14,10 +14,10 @@ class Home extends Component {
           <br/>
           <div className="icons">
 
-            <a href="https://github.com/anneslin" target="_blank"><i className="fa fa-github"/></a>
-            <a href="https://www.linkedin.com/in/anneslin/" target="_blank"><i className="fa fa-linkedin"/></a>
-            <a href="http://www.instagram.com/lumohn/" target="_blank"><i className="fa fa-instagram"/></a>
-            <a href="mailto:anne.lin@berkeley.edu" target="_top"><i className="fa fa-envelope-o"/></a>
+            <a href="https://github.com/anneslin" target="_blank"><i className="fa fa-github linked"/></a>
+            <a href="https://www.linkedin.com/in/anneslin/" target="_blank"><i className="fa fa-linkedin linked"/></a>
+            <a href="http://www.instagram.com/lumohn/" target="_blank"><i className="fa fa-instagram linked"/></a>
+            <a href="mailto:anne.lin@berkeley.edu" target="_top"><i className="fa fa-envelope-o linked"/></a>
           </div>
         </div>
         <div className="photoCredits"><i className="fa fa-camera-retro"/> photo by

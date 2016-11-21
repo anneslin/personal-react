@@ -2,21 +2,33 @@ import React, { Component } from 'react';
 import Home from './Home.jsx';
 import Learner from './Learner.jsx';
 import Blackberry from './Blackberry.jsx'
+import Body from './Body.jsx'
+import Fine from './Fine.jsx'
+import Lens from './Lens.jsx'
+
 
 class ContentContainer extends Component {
-  
-  componentDidMount() {
-  
-  }
+
   choosePage(page){
     if (page === "home"){
       return (<Home/>);
     }
+    /* passing in page because both currently reading and related coursework is handled with Learner */
     if (page === "currently reading" || page === "related coursework"){
       return(<Learner page={page}/>);
     }
     if (page === "blackberry"){
       return(<Blackberry/>);
+    }
+
+    if (page === "body"){
+      return(<Body/>);
+    }
+    if (page === "fine"){
+      return(<Fine/>);
+    }
+    if (page === "lens"){
+      return(<Lens/>);
     }
   }
   render() {

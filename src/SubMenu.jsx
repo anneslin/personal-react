@@ -6,6 +6,7 @@ class SubMenu extends Component {
     super(props);
     this.rendersubMenuItems = this.rendersubMenuItems.bind(this);
   }
+  
   rendersubMenuItems(item) {
     return <div className="item" onClick={this.props.changeContent.bind(this, item)}>{item}</div>;
   }

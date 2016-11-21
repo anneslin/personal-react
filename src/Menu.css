@@ -1,8 +1,9 @@
 .menu{
   position: relative;
   text-align: center;
-  margin-top: 25vmax;
   font-family: 'Montserrat', sans-serif;
+  margin-top: 45vh;
+
 }
 .name{
   text-transform: uppercase;
@@ -16,7 +17,6 @@
 .name:hover{
   cursor: pointer;
   color: #93d6ce;
-  font-size: 23px;
 
 }
 .menuItems{
@@ -24,12 +24,12 @@
   height: 10px;
   transform: translateX(10%);
   margin-top: 1px;
-  font-size: 9px;
   letter-spacing: 1.5px;
+  font-family: 'News Cycle', sans-serif;
+  font-size: .8em;
 }
 
 .menuItem{
-  font-size: 10px;
   height: 25px;
   width: 33%;
   float:left;
@@ -40,7 +40,6 @@
 .menuItem:hover{
   cursor: pointer;
   color: #93d6ce;
-  font-size: 11px;
 }
 #creative{
   text-align: left;

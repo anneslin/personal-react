@@ -12,7 +12,7 @@ class Menu extends Component {
 
   	const updateSubMenu = function(section){
 	    if (section === "c"){
-	      this.setState({subMenuItems: ['fine', 'lens', 'body', 'pen', 'look']});
+	      this.setState({subMenuItems: ['fine', 'lens', 'body']});
 	    } else if (section === "s"){
 	      this.setState({subMenuItems: ['blackberry', 'personal']});
 	    } else if (section === "l"){
