@@ -20,7 +20,7 @@ class Body extends Component {
 	      		During my college years, I found making fine art to be harder because, unfortunately, other things superceded it in priority-painting, which was my main vocation, required too much time, space, and focus, all of which were funneled into furthing my academics and developing my career path. Consequently, I found a new hobby that fitted snuggly into my schedule, and allowed me to excerise a novel collaborative art form with the medium being my own physical self. However, I personally never felt comfortable calling what I did 'modeling' because the word to me had always held a professional context. So I have been describing it to be more of an artistic expression through the means of my own body...<br/><br/>...but I suppose that is the essence of modeling. <br/><br/>
 	      		</div>
 
-            <ImageSet imgList={[require("./img/body/cold1.jpg"), require("./img/body/cold2.jpg"), require("./img/body/cold3.jpg"), require("./img/body/cold4.jpg")]} photographer={charley}/>
+            <ImageSet imgList={[require("./img/body/cold1.gif"), require("./img/body/cold2.gif"), require("./img/body/cold3.gif"), require("./img/body/cold4.gif")]} photographer={charley}/>
 
 	      		<ImageSet imgList={[require("./img/body/rosehips1.jpeg"), require("./img/body/rosehips2.jpeg"), require("./img/body/rosehips3.jpeg"), require("./img/body/rosehips4.jpeg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/8/19/rosehips'}/>
 
