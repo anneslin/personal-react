@@ -21,7 +21,7 @@ body{
 }
 
 .bgImg{
-  background-image: url(./img/homepic.jpg);
+  background-image: url(./img/homepic.gif);
   background-position: absolute; 
   background-position: center center;
   background-attachment: fixed;
