@@ -1,7 +1,7 @@
 .readingContainer{
   position: absolute;
   margin-top: 45vh;
-  width:275px;
+  width:20vw;
   height: 100px;
   text-align: right;
   font-family: 'News Cycle', sans-serif;
@@ -11,7 +11,7 @@
 .courseworkContainer{
   position: absolute;
   margin-top: 45vh;
-  width:275px;
+  width:20vw;
   height: 245px;
   text-align: right;
   font-family: 'News Cycle', sans-serif;
@@ -21,6 +21,6 @@
 i.arrow{
   position: absolute;
   top: calc(45vh + 235px);
-  left:280px;
+  left:calc(20vw + 3px);
   font-size: 10px;
 }

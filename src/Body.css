@@ -6,6 +6,7 @@
 	overflow-y:scroll;
 	color: #404040;
 
+
 }
 .title{
   letter-spacing: 5px;
@@ -14,24 +15,23 @@
   text-transform: uppercase;
   margin-top: 45vh;
 
+
 }
 
 .blurb{
-	text-align: justify;
-	font-family: 'News Cycle', sans-serif;
-	position: relative;
+  text-align: justify;
+  font-family: 'News Cycle', sans-serif;
+  position: relative;
   font-size: .8em;
   margin-top: 10px;
   min-width: 400px;
   width: 70%;
   float: right;
-
-}
-.scrollableContent{
 }
 
 img{
 	max-width: 100%;
+	min-width: 100%;
 }
 .setDetails{
 	font-size: 10px;
@@ -40,4 +40,10 @@ img{
 
 .a:hover{
 	color:#93d6ce;
+}
+.photoList{
+	position: relative;
+	float: right;
+	max-width: 1600px;
+	border: solid red 1px;
 }

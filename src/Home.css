@@ -8,7 +8,8 @@
   font-family: 'News Cycle', sans-serif;
   position: absolute;
   margin-top: 45vh;
-  width:275px;  height: 100px;
+  width:20vw; 
+  height: 100px;
 }
 a:link{
 	color:#404040;

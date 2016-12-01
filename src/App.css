@@ -5,7 +5,9 @@ body{
 
 .sidebar{
   min-height: 100vmax; 
+  min-width: 15vw;
   width: 275px;
+  max-width: 25vw;
   position: fixed;
   color: #404040;
   padding: 0px 20px 0px 20px;
@@ -14,9 +16,10 @@ body{
 .content{
   position: fixed;
   min-width: 450px;
-  width: calc(100% - 316px);
+  width: calc(100% - 25vw);
   min-height: 100vmax; 
-  margin-left: 316px;
+  margin-left: 25vw;
+
   color: #404040;
 }
 
