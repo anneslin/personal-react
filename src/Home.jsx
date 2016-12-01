@@ -10,7 +10,7 @@ class Home extends Component {
           majoring in Applied Mathematics, minoring on Computer Science, 
           with a heavy concentration on the latter.
           <br/>
-          <a href="http://www.anneslin.com/resume/" target='_blank' >résumé</a>
+          <a href="http://anneslin.com/files/resume.pdf" download>résumé</a> 
           <br/>
           <div className="icons">
 
