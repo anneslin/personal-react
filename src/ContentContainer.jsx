@@ -5,6 +5,7 @@ import Blackberry from './Blackberry.jsx'
 import Body from './Body.jsx'
 import Fine from './Fine.jsx'
 import Lens from './Lens.jsx'
+import Personal from './Personal.jsx'
 
 
 class ContentContainer extends Component {
@@ -19,6 +20,10 @@ class ContentContainer extends Component {
     }
     if (page === "blackberry"){
       return(<Blackberry/>);
+    }
+
+    if (page === "personal"){
+      return(<Personal/>);
     }
 
     if (page === "body"){

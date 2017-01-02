@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-class Fine extends Component {
+class Personal extends Component {
   
   render() { 
     return (
       <div className='introContent'>
       		<div className='title'>
-      		The Fine
+      		Personal Projects
       		</div>
       		<div className="scrollableContent">
 	      		<div className='blurb1'>
@@ -19,5 +19,4 @@ class Fine extends Component {
   }
 }
 
-export default Fine;
-
+export default Personal;

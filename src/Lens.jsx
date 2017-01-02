@@ -10,12 +10,14 @@ class Lens extends Component {
       		The Lens
       		</div>
       		<div className="scrollableContent">
-	      		<div className='blurb'>
-	      		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	      		<div className='blurb1'>
+	      		coming soon
             <br/><br/>
 	      		</div>
             <div className="photoList">
+          {/* 
             <ImageSet imgList={[require("./img/lens/1.gif"), require("./img/lens/3.gif"), require("./img/lens/4.jpg"), require("./img/lens/5.gif"), require("./img/lens/6.jpg"), require("./img/lens/7.gif"), require("./img/lens/8.gif"), require("./img/lens/9.jpg"), require("./img/lens/10.jpg"), require("./img/lens/11.jpg"), require("./img/lens/12.jpg")]}/>
+            */}
             </div>
       		</div>
       </div>

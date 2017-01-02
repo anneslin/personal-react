@@ -27,9 +27,11 @@ class Reading extends Component {
   reading(){
     return (
       <div className="readingContainer">
+        Jane Eyre : Charlotte Brontë
+        <br />
         1Q84 : Haruki Murakami
         <br />
-        My Struggle Book I : Karl Ove Knausgaard
+        My Struggle Book I : Karl Ove Knausgård
         <br />
         Yellow : Don Lee<br />
       </div>
