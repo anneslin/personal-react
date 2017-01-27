@@ -1,11 +1,20 @@
-body{
-	height: 100vh;
-}
 .title1{
   width:200px;
   float:right;
 }
-
+.sub-title{
+  text-align: right;
+  font-family: 'News Cycle', sans-serif;
+  position: relative;
+  font-size: .6em;
+  letter-spacing: 0px;
+  margin-top: 10px;
+  min-width: 400px;
+  width: 100%;
+  float: right;
+  top:-15px;
+  right: 5px;
+}
 .blurb2{
   text-align: right;
   font-family: 'News Cycle', sans-serif;
@@ -17,4 +26,21 @@ body{
   float: right;
   top:-15px;
   right: 5px;
+}
+.icn{
+	position: relative;
+	width: 100%;
+	float: right;
+	text-align: right;
+}
+
+.icns{
+  max-width: 60px;
+  min-width: 10px;
+  height: 15px;
+  width: auto;
+  margin: 2.5px;
+}
+.icns:hover{
+	cursor: help;
 }

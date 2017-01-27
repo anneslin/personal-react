@@ -9,6 +9,7 @@ class Reading extends Component {
         Introduction to Analysis : MATH104<br />
         Linear Algebra : MATH110<br />
         Abstract Algebra : MATH113 <br />
+        Numerical Analysis : MATH128A<br/>
         Complex Analysis : MATH185<br />
         <br />
         Structure and Interpretation of Programs : CS61A<br />
@@ -16,10 +17,12 @@ class Reading extends Component {
         Great Ideas of Computer Architecture : CS61C<br />
         Discrete Math and Probability : CS70<br />
         User Interfaces : CS160<br />
+        Introduction to Databases : CS186<br/>
         Introduction to Computer Science Theory : CS170<br />
         Introduction to Artifcial Intelligence : CS188<br />
         Web Design Decal : CS198<br />
-        Ruby on Rails Decal : CS198
+        Ruby on Rails Decal : CS198<br />
+        Product Management : IEOR186<br />
       </div>
       <i className="fa fa-arrows-v arrow"/>
       </div>);
