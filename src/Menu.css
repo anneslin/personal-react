@@ -51,3 +51,23 @@
   vertical-align: middle
 }
 
+
+
+
+
+@media (max-width: 800px) {
+  
+  .menu{
+    margin-top: 25px;
+  }
+  .name{
+    font-size: 30px;
+    transition:0.25s;
+    padding-right: 5px;
+    text-align: left;
+  }
+  .menuItems{
+    display: none;
+  }
+
+}

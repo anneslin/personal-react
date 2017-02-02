@@ -2,7 +2,7 @@
 	height: 100vh;
 	font-family: 'Montserrat', sans-serif;
 	text-align: right;
-	padding-right: 30px;
+	padding-right: 10vw;
 	overflow-y:scroll;
 	color: #404040;
 }

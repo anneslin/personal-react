@@ -1,3 +1,4 @@
+
 .homeContainer{
 	text-align: right;
 	font-family: 'Montserrat', sans-serif;
@@ -37,4 +38,34 @@ i.linked:hover{
 	font-size: 10px;
 	padding-top: 96vh;
 	width:99%;
+}
+.mobile{
+	display: none;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+
+  .homeContainer{
+	text-align: left;
+	font-size: 1em;	
+  }
+  .about{
+	width: 68%;
+  }
+  .icons{
+	letter-spacing: 20px;
+	font-size: 1.2em;
+  }
+  .photoCredits{
+	display: none;
+  }
+  .mobile{
+	font-size: .8em;
+	display: block;
+  }
+
 }

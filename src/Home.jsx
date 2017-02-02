@@ -19,6 +19,11 @@ class Home extends Component {
             <a href="http://www.instagram.com/lumohn/" target="_blank"><i className="fa fa-instagram linked"/></a>
             <a href="mailto:anne.lin@berkeley.edu" target="_top"><i className="fa fa-envelope-o linked"/></a>
           </div>
+          <div className="mobile">
+          <br/>
+          <br/>
+          View full page on desktop.
+          </div>
         </div>
         <div className="photoCredits"><i className="fa fa-camera-retro"/> photo by
           <a href="http://www.instagram.com/peerphan/" target="_blank"> Peter Phan</a>

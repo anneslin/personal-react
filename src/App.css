@@ -5,22 +5,22 @@ body{
 
 .sidebar{
   min-height: 100vmax; 
-  min-width: 15vw;
+  min-width: 220px;
   width: 275px;
   max-width: 25vw;
   position: fixed;
   color: #404040;
-  padding: 0px 20px 0px 20px;
+  margin-left: 8vw;
 }
 
 .content{
   position: fixed;
   min-width: 450px;
-  width: calc(100% - 25vw);
+  width: calc(100% - 33vw);
   min-height: 100vmax; 
-  margin-left: 25vw;
-
+  margin-left: 33vw;
   color: #404040;
+
 }
 
 .bgImg{
@@ -56,4 +56,26 @@ body{
 .example-appear.example-appear-active {
   opacity: 1;
   transition: opacity .5s ease-in;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+
+  .sidebar{
+    min-width: 200px;
+    height: 70px;
+    margin-top: 50vh;
+    margin-left: 25px;
+  }
+  .content{
+    min-height: 40%;
+    height: 40%;
+    min-width: 90%;
+    margin-left: 25px;
+    margin-top: 15vh;
+  }
+
 }
