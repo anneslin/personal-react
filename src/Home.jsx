@@ -20,7 +20,7 @@ class Home extends Component {
             <a href="mailto:anne.lin@berkeley.edu" target="_top"><i className="fa fa-envelope-o linked"/></a>
           </div>
           <div className="mobile">
-          <br/>
+          
           <br/>
           View full page on desktop.
           </div>
