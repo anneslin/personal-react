@@ -1,8 +1,19 @@
+.menuUnderlay{
+  background: #e8e8ea;
+  margin-top: calc(45vh - 50px);
+  height: 240px;
+  width: 260px;
+  opacity: .5;
+
+}
 .menu{
-  position: relative;
+  position: absolute;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 45vh;
+  height: 190px;
+  padding-top: 50px;
+  margin-top:-240px;
+  width: 275px;
 
 }
 .name{

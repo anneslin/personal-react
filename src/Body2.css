@@ -1,0 +1,46 @@
+.introContentPhoto{
+  display: flex;
+	font-family: 'Montserrat', sans-serif;
+  overflow-x: auto;
+	color: #404040;
+}
+
+.titlePhoto{
+  letter-spacing: 5px;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: 45vh;
+  padding-right: 30px;
+
+}
+
+.blurb{
+  text-align: justify;
+  font-family: 'News Cycle', sans-serif;
+  position: relative;
+  font-size: .8em;
+  margin-top: 10px;
+  min-width: 400px;
+  width: 50%;
+  float: right;
+  padding-right: 30px;
+
+}
+/** coming soon **/
+.blurb1{
+  text-align: right;
+  font-family: 'News Cycle', sans-serif;
+  position: relative;
+  font-size: .8em;
+  margin-top: 10px;
+  min-width: 400px;
+  width: 70%;
+  float: right;
+  right: 5px;
+}
+
+.a:hover{
+	color:#93d6ce;
+}

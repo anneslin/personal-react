@@ -23,6 +23,8 @@ class Menu extends Component {
 	    }
   	}
     return (
+    	<div>
+	    <div className="menuUnderlay"/>
 	    <div className="menu">
 	      <div className="name" onClick={updateSubMenu.bind(this,"n")}>
 	          anne lin
@@ -33,6 +35,7 @@ class Menu extends Component {
 	          <div id="learner" className="menuItem" onClick={updateSubMenu.bind(this, "l")}>learner</div>
 	      </div>
 	      <SubMenu subMenuItems={this.state.subMenuItems} changeContent={this.props.changeContent}/>
+	    </div>
 	    </div>
   
     );

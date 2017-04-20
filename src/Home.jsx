@@ -26,7 +26,7 @@ class Home extends Component {
           </div>
         </div>
         <div className="photoCredits"><i className="fa fa-camera-retro"/> photo by
-          <a href="http://www.instagram.com/peerphan/" target="_blank"> Peter Phan</a>
+          <a href="https://www.peerphan.com/" target="_blank"> Peter Phan</a>
         </div>
       </div>
     );

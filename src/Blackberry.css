@@ -1,3 +1,19 @@
+.introContent{
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+  padding-right: 10vw;
+  overflow-y:scroll;
+  color: #404040;
+}
+.title{
+  letter-spacing: 5px;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 45vh;
+}
+
 .title1{
   width:200px;
   float:right;
@@ -14,6 +30,11 @@
   float: right;
   top:-15px;
   right: 5px;
+}
+
+.title1 img{
+  max-width: 100%;
+  min-width: 100%;
 }
 .blurb2{
   text-align: right;

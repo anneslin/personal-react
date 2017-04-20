@@ -9,7 +9,7 @@
   font-family: 'News Cycle', sans-serif;
   position: absolute;
   margin-top: 45vh;
-  width:20vw; 
+  width:250px; 
   height: 100px;
 }
 a:link{
@@ -34,7 +34,6 @@ i.linked:hover{
 	color:#93d6ce;
 }
 .photoCredits{
-
 	font-size: 10px;
 	padding-top: 96vh;
 	width:99%;
