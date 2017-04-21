@@ -13,15 +13,21 @@ class Body extends Component {
 
     return (
       <div className='introContentPhoto'>
-          <div className="contentBlock spacer"/>
-          <div className="contentBlock intro">
-        		<div className='titlePhoto'>
-        			The Body
-        		</div>
-            <div className='blurb'>
-              During my college years, I found making fine art to be harder because, unfortunately, other things superceded it in priority; painting, which was my main vocation, required too much time, space, and focus, all of which were funneled into furthing my academics and developing my career path. Consequently, I found a new hobby that fitted snuggly into my schedule, and allowed me to excerise a novel collaborative art form with the medium being my own physical self. However, I personally never felt comfortable calling what I did 'modeling' because the word to me had always held a professional context. So I have been describing it to be more of an artistic expression through the means of my own body...<br/><br/>...but I suppose that is the essence of modeling. <br/><br/>
-            </div>
-	      	</div>
+          <div className='photoSet'>
+            <div className="contentBlock spacer"/>
+            
+            <div className="contentBlock intro">
+              <div className='textContainer'>
+
+            		<div className='titlePhoto'>
+            			The Body
+            		</div>
+                <div className='blurb'>
+                  During my college years, I found making fine art to be harder because, unfortunately, other things superceded it in priority; painting, which was my main vocation, required too much time, space, and focus, all of which were funneled into furthing my academics and developing my career path. Consequently, I found a new hobby that fitted snuggly into my schedule, and allowed me to excerise a novel collaborative art form with the medium being my own physical self. However, I personally never felt comfortable calling what I did 'modeling' because the word to me had always held a professional context. So I have been describing it to be more of an artistic expression through the means of my own body...<br/><br/>...but I suppose that is the essence of modeling. <br/><br/>
+                </div>
+              </div>
+	      	  </div>
+          </div>
 
           <ImageSet2 imgList={[require("./img/body/fingers1.jpg"), require("./img/body/fingers2.jpg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2017/3/20/2-girls-and-28-fingers'} bottomBar={true}/>
 

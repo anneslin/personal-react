@@ -23,7 +23,6 @@
   font-weight: 400;
   transition:0.25s;
 
-
 }
 .name:hover{
   cursor: pointer;
@@ -70,6 +69,17 @@
   
   .menu{
     margin-top: 25px;
+    position:;
+    width:;
+    padding-top: 0px;
+
+
+  }
+  .menuUnderlay{
+    opacity: 0;
+    margin-top:0;
+    height:0;
+    width:0;
   }
   .name{
     font-size: 30px;

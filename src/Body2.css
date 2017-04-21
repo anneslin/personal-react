@@ -1,19 +1,22 @@
-.introContentPhoto{
-  display: flex;
+/*.introContentPhoto{
 	font-family: 'Montserrat', sans-serif;
   overflow-x: auto;
 	color: #404040;
 }
+*/
 
+.textContainer{
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 45vh;
+
+}
 .titlePhoto{
   letter-spacing: 5px;
   font-size: 22px;
   font-weight: 400;
   text-align: right;
   text-transform: uppercase;
-  margin-top: 45vh;
-  padding-right: 30px;
-
 }
 
 .blurb{
@@ -22,10 +25,6 @@
   position: relative;
   font-size: .8em;
   margin-top: 10px;
-  min-width: 400px;
-  width: 50%;
-  float: right;
-  padding-right: 30px;
 
 }
 /** coming soon **/

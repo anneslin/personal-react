@@ -21,9 +21,7 @@ body{
   color: #404040;
 }
 .photoContent{
-  width: 100vw;
-  min-height: 100vh;
-  max-height: 100vh;
+  height: 100vh;
   color: #404040;
   overflow-y: hidden; 
 }
