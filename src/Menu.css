@@ -65,7 +65,7 @@
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   
   .menu{
     margin-top: 25px;
@@ -88,6 +88,10 @@
     text-align: left;
   }
   .menuItems{
+    display: none;
+  }
+
+  .items{
     display: none;
   }
 

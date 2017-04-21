@@ -1,8 +1,7 @@
 .itemsContainer{
-margin-top: 50px;
+  margin-top: 50px;
   width: 80%;
   transform: translateX(10%);
-
 }
 .item{
 	transition:0.25s;

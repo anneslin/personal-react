@@ -21,7 +21,7 @@ class Lens extends Component {
                 The Lens
               </div>
               <div className='blurb'>
-                My parents promised me my first DSLR if I got accepted into Berkeley four years ago. And I did, so my father went to Costco to buy me my D3200 with two kit lens. Four years later, this is still the only equipment I own, along with my iPhone6. What's different now is that I've made a lot of friends during my college years who share the same interests and, frankly, invested in better quality cameras and lenses. So, here and there, I get lended some things to further along my photo journey in telling visual stories.
+                My parents promised me my first DSLR if I got accepted into Berkeley four years ago. And I did, so my father went to Costco to buy me my D3200 with two kit lens. Four years later, this is still the only equipment I own, along with my iPhone6. What's different now is that I've made a lot of friends during my college years who share the same interests and, frankly, invested in better quality cameras and lenses. So, here and there, I get lended some things to further along my journey in telling visual stories. Photography and filmmaking have easily landed themselves among my favorite past-times.
                 <br/>
                 <br/>
                 For clarification, photos here of myself that I ask others to take for me are indeed mine, for I set up my camera settings and photo composition prior to having someone else handle the camera and I perform all of the post-production.

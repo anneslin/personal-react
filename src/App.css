@@ -10,6 +10,7 @@ body{
   color: #404040;
   margin-left: 8vw;
   z-index: 1;
+  transition: margin-left .5s ease-in-out;
 }
 
 .content{
@@ -35,37 +36,15 @@ body{
   background-size: cover;
 }
 
-.example-enter {
-  opacity: 0.01;
+@media(max-width: 1050px){
+  .sidebar{
+    min-width: 200px;
+    height: 70px;
+    margin-left: 20px;
+  }
 }
 
-.example-enter.example-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
-}
-
-.example-leave {
-  opacity: 1;
-}
-
-.example-leave.example-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in;
-}
-.example-appear {
-  opacity: 0.01;
-}
-
-.example-appear.example-appear-active {
-  opacity: 1;
-  transition: opacity .5s ease-in;
-}
-
-
-
-
-
-@media (max-width: 800px) {
+@media (max-width: 840px) {
 
   .sidebar{
     min-width: 200px;

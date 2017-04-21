@@ -35,11 +35,11 @@
   position:relative;
   bottom: 8vh;
   text-align: center;
-  visibility:hidden;
-  border: solid white 1px;
   background: #e8e8ea;
   opacity: .5;
-  height: 40px;
+  height: 0px;
+  overflow-y:hidden; 
+  transition:height .25s ease-in-out;
 }
 
 /*.contentBlock.set{
@@ -53,7 +53,7 @@
 
 }*/
 .contentBlock:hover .hoverText{
-  visibility:visible;
+  height: 40px;
 }
 
 
