@@ -34,9 +34,10 @@ i.linked:hover{
 	color:#93d6ce;
 }
 .photoCredits{
+	font-family: 'News Cycle', sans-serif;
 	font-size: 10px;
-	padding-top: 96vh;
-	width:99%;
+	padding-top: 94vh;
+	width:97%;
 }
 .mobile{
 	display: none;

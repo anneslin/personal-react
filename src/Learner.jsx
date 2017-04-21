@@ -5,8 +5,8 @@ class Reading extends Component {
     return(
       <div><div className="courseworkContainer">
         Multivariable Calculus : MATH53<br />
-        Linear Algebra and Differential Equations : MATH54<br />
-        Introduction to Analysis : MATH104<br />
+        Linear Algebra, Differential Equations : MATH54<br />
+        Analysis : MATH104<br />
         Linear Algebra : MATH110<br />
         Abstract Algebra : MATH113 <br />
         Numerical Analysis : MATH128A<br/>
@@ -14,12 +14,12 @@ class Reading extends Component {
         <br />
         Structure and Interpretation of Programs : CS61A<br />
         Data Structures : CS61B<br />
-        Great Ideas of Computer Architecture : CS61C<br />
+        Computer Architecture : CS61C<br />
         Discrete Math and Probability : CS70<br />
         User Interfaces : CS160<br />
-        Introduction to Databases : CS186<br/>
-        Introduction to Computer Science Theory : CS170<br />
-        Introduction to Artifcial Intelligence : CS188<br />
+        Database Systems : CS186<br/>
+        Computer Science Theory : CS170<br />
+        Artifcial Intelligence : CS188<br />
         Web Design Decal : CS198<br />
         Ruby on Rails Decal : CS198<br />
         Product Management : IEOR186<br />

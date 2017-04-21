@@ -2,6 +2,7 @@
   position: absolute;
   height:100vh; 
   white-space:nowrap;
+  overflow-y:hidden; 
 }
 .photoSet{
   position: relative;
@@ -31,15 +32,17 @@
 
 .hoverText{
   font-family: 'News Cycle', sans-serif;
+  letter-spacing: 1px;
   font-size: 10px;
   position:relative;
-  bottom: 8vh;
+  bottom: 0vh;
   text-align: center;
   background: #e8e8ea;
   opacity: .5;
-  height: 0px;
+  height: 60px;
   overflow-y:hidden; 
-  transition:height .25s ease-in-out;
+  padding-top: 5px;
+  transition:bottom .25s ease-in-out;
 }
 
 /*.contentBlock.set{
@@ -53,7 +56,7 @@
 
 }*/
 .contentBlock:hover .hoverText{
-  height: 40px;
+  bottom: 55px;
 }
 
 
