@@ -1,10 +1,9 @@
 .menuUnderlay{
-  background: #e8e8ea;
+  background: #d8d7d3;
   margin-top: calc(45vh - 50px);
   height: 240px;
   width: 260px;
-  opacity: .5;
-
+  opacity: 0;
 }
 .menu{
   position: absolute;
@@ -26,7 +25,7 @@
 }
 .name:hover{
   cursor: pointer;
-  color: #93d6ce;
+  color: #b3a296;
 
 }
 .menuItems{
@@ -49,7 +48,7 @@
 
 .menuItem:hover{
   cursor: pointer;
-  color: #93d6ce;
+  color: #b3a296;
 }
 #creative{
   text-align: left;

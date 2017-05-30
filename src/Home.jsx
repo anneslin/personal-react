@@ -25,8 +25,7 @@ class Home extends Component {
           View full page on desktop.
           </div>
         </div>
-        <div className="photoCredits"><i className="fa fa-camera-retro"/> photo by
-          <a href="https://www.peerphan.com/" target="_blank"> Peter Phan</a>
+        <div className="photoCredits">
         </div>
       </div>
     );

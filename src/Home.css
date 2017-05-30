@@ -17,7 +17,7 @@ a:link{
 	transition:0.25s;
 }
 a:hover{
-	color:#93d6ce;
+	color:#b3a296;
 }
 a:visited {
 	color: #404040;
@@ -31,7 +31,7 @@ i{
 	transition:0.25s;
 }
 i.linked:hover{
-	color:#93d6ce;
+	color:#b3a296;
 }
 .photoCredits{
 	font-family: 'News Cycle', sans-serif;

@@ -24,7 +24,7 @@ class Menu extends Component {
   	}
     return (
     	<div>
-	    <div className="menuUnderlay"/>
+	    {this.props.bgImg ? <div className="menuUnderlay" style={{opacity: 0}}/> : <div className="menuUnderlay" style={{opacity: 0.5}}/>}
 	    <div className="menu">
 	      <div className="name" onClick={updateSubMenu.bind(this,"n")}>
 	          anne lin

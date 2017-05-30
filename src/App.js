@@ -18,7 +18,6 @@ class App extends Component {
       sbOpacity: 1
     };
   }
-
   changeContent(item) {
     this.setState({ page: item});
     if (this.state.bgImgList.indexOf(item) > -1){
@@ -54,7 +53,7 @@ class App extends Component {
       <Background bgImg={this.state.bgImg}/>
       
         <div className="sidebar">
-          <Menu changeContent={this.changeContent}/>
+          <Menu changeContent={this.changeContent} bgImg={this.state.bgImg}/>
         </div>
         
         {this.state.isPhotoContent ? <div className="photoContent">
