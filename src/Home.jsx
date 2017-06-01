@@ -6,9 +6,8 @@ class Home extends Component {
     return (
       <div className="homeContainer">
         <div className="about"> 
-          Currently a fourth year student at the University of California, Berkeley: 
-          majoring in Applied Mathematics, minoring in Computer Science, 
-          with a heavy concentration on the latter.
+          Newly graduated from the University of California, Berkeley: 
+          majored in Applied Mathematics, major cocentration and minored in Computer Science.
           <br/>
           <a href="http://anneslin.com/files/resume.pdf" download>résumé</a> 
           <br/>
