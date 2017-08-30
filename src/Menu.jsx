@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './Menu.css';
 import SubMenu from './SubMenu.jsx';
 
+const creativeSub = ['fine', 'lens', 'body'];
+const sweSub = ['blackberry', 'uptop'];
+const learnerSub = ['related coursework', 'currently reading'];
 class Menu extends Component {
   constructor(props) {
   	super(props);
@@ -12,11 +15,11 @@ class Menu extends Component {
 
   	const updateSubMenu = function(section){
 	    if (section === "c"){
-	      this.setState({subMenuItems: ['fine', 'lens', 'body']});
+	      this.setState({subMenuItems: creativeSub});
 	    } else if (section === "s"){
-	      this.setState({subMenuItems: ['blackberry', 'personal']});
+	      this.setState({subMenuItems: sweSub});
 	    } else if (section === "l"){
-	      this.setState({subMenuItems: ['related coursework', 'currently reading']})
+	      this.setState({subMenuItems: learnerSub})
 	    } else if (section === "n"){
 	      this.setState({subMenuItems: []});
 	      this.props.changeContent("home");

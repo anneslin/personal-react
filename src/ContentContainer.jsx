@@ -5,7 +5,7 @@ import Blackberry from './Blackberry.jsx'
 import Body2 from './Body2.jsx'
 import Fine from './Fine.jsx'
 import Lens from './Lens.jsx'
-import Personal from './Personal.jsx'
+import Uptop from './Uptop.jsx'
 
 
 class ContentContainer extends Component {
@@ -22,8 +22,8 @@ class ContentContainer extends Component {
       return(<Blackberry/>);
     }
 
-    if (page === "personal"){
-      return(<Personal/>);
+    if (page === "uptop"){
+      return(<Uptop/>);
     }
 
     if (page === "body"){

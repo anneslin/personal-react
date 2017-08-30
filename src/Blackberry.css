@@ -36,6 +36,11 @@
   max-width: 100%;
   min-width: 100%;
 }
+.uptopImg {
+  max-width: 125px;
+  margin-top: -38px;
+  margin-bottom: 3px;
+}
 .blurb2{
   text-align: right;
   font-family: 'News Cycle', sans-serif;
@@ -62,6 +67,4 @@
   width: auto;
   margin: 2.5px;
 }
-.icns:hover{
-	cursor: help;
-}
+

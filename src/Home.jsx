@@ -5,9 +5,9 @@ class Home extends Component {
   render() { 
     return (
       <div className="homeContainer">
-        <div className="about"> 
+        <div className="smallDescription"> 
           Newly graduated from the University of California, Berkeley: 
-          majored in Applied Mathematics, major cocentration and minored in Computer Science.
+          major in Applied Mathematics, major concentration and minor in Computer Science.
           <br/>
           <a href="http://anneslin.com/files/resume.pdf" download>résumé</a> 
           <br/>

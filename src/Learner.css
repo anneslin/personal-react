@@ -1,26 +1,13 @@
-.readingContainer{
-  position: absolute;
-  margin-top: 45vh;
-  width:250px;
-  height: 100px;
-  text-align: right;
-  font-family: 'News Cycle', sans-serif;
-  font-size: .8em;
-}
-
-.courseworkContainer{
-  position: absolute;
-  margin-top: 45vh;
-  width:250px;
+.coursework{
   height: 245px;
-  text-align: right;
-  font-family: 'News Cycle', sans-serif;
-  font-size: .8em;
-  overflow-y: scroll
+  overflow-y: scroll;
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
 i.arrow{
   position: absolute;
   top: calc(45vh + 235px);
-  left:253px;
+  left:303px;
   font-size: 10px;
 }
