@@ -28,23 +28,23 @@ class Body extends Component {
 	      	  </div>
           </div>
 
-          <ImageSet2 imgList={[require("./img/body/nyfw1.jpg")]} photographer={ankur} bottomBar={true}/>
+          <ImageSet2 imgList={[require("./img/body/nyfw1.jpg")]} photographer={ankur} bottomBar={false}/>
 
-          <ImageSet2 imgList={[require("./img/body/poolside1.jpg")]} photographer={wes} bottomBar={true}/>
+          <ImageSet2 imgList={[require("./img/body/poolside1.jpg")]} photographer={wes} bottomBar={false}/>
 
-          <ImageSet2 imgList={[require("./img/body/eyes1.jpg"), require("./img/body/cabo1.jpg"), require("./img/body/cabo2.jpg")]} photographer={ankur} bottomBar={true}/>
+          <ImageSet2 imgList={[require("./img/body/eyes1.jpg"), require("./img/body/cabo1.jpg"), require("./img/body/cabo2.jpg")]} photographer={ankur} bottomBar={false}/>
 
-          <ImageSet2 imgList={[require("./img/body/wind1.jpg"), require("./img/body/wind2.jpg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2017/1/9/eye-of-the-storm'} bottomBar={true}/>
+          <ImageSet2 imgList={[require("./img/body/wind1.jpg"), require("./img/body/wind2.jpg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2017/1/9/eye-of-the-storm'} bottomBar={false}/>
 
-          <ImageSet2 imgList={[require("./img/body/rosehips3.jpg"), require("./img/body/rosehips4.jpg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/8/19/rosehips'} bottomBar={true}/>
+          <ImageSet2 imgList={[require("./img/body/rosehips3.jpg"), require("./img/body/rosehips4.jpg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/8/19/rosehips'} bottomBar={false}/>
 
-          <ImageSet2 imgList={[require("./img/body/rooftops3.jpg"), require("./img/body/rooftops4.jpg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/6/13/rooftops'} bottomBar={true}/>
+          <ImageSet2 imgList={[require("./img/body/rooftops3.jpg"), require("./img/body/rooftops4.jpg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/6/13/rooftops'} bottomBar={false}/>
 
-          <ImageSet2 imgList={[require("./img/body/alchemy2.jpg"), require("./img/body/alchemy3.jpg"), require("./img/body/alchemy4.jpg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/4/19/alchemy'} bottomBar={true}/>
+          <ImageSet2 imgList={[require("./img/body/alchemy2.jpg"), require("./img/body/alchemy3.jpg"), require("./img/body/alchemy4.jpg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/4/19/alchemy'} bottomBar={false}/>
           
-          <ImageSet2 imgList={[require("./img/body/bloom2.jpg"), require("./img/body/bloom4.jpg")]}photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/4/22/bloom'} bottomBar={true}/>
+          <ImageSet2 imgList={[require("./img/body/bloom2.jpg"), require("./img/body/bloom4.jpg")]}photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/4/22/bloom'} bottomBar={false}/>
 
-          <ImageSet2 imgList={[require("./img/body/fugitive1.jpg"), require("./img/body/fugitive2.jpg")]}photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/3/7/fugitive'} bottomBar={true}/>
+          <ImageSet2 imgList={[require("./img/body/fugitive1.jpg"), require("./img/body/fugitive2.jpg")]}photographer={ankur} setSite={'http://www.encoreankur.com/blog/2016/3/7/fugitive'} bottomBar={false}/>
       </div>
     
   );}
