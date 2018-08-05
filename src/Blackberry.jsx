@@ -35,7 +35,7 @@ class Blackberry extends Component {
 		      		I wrote unit and integration tests with <a href="https://github.com/airbnb/enzyme" target="_blank">Enzyme</a>, Chai, and Sinon for both client and server sides.
 		      		<br/>
 					This feature was used immediately by all sub-teams of this project and is to be incorporated into the product’s deployment.
-					<br/><br/><br/><br/>
+					<br/><br/><br/><br/><br/><br/>
 					</div>
 	      		</div>
 

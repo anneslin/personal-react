@@ -8,6 +8,7 @@ class Body extends Component {
   render() { 
     // photographers //
   	var ankur = {name : "Ankur Maniar", site : "http://www.encoreankur.com/"}
+    var wes = {name : "Wes Ruan", site : "https://www.instagram.com/purshoot/"}
 
     return (
       <div className='introContentPhoto'>
@@ -27,7 +28,11 @@ class Body extends Component {
 	      	  </div>
           </div>
 
-          <ImageSet2 imgList={[require("./img/body/cabo1.jpg"), require("./img/body/cabo2.jpg")]} photographer={ankur} bottomBar={true}/>
+          <ImageSet2 imgList={[require("./img/body/nyfw1.jpg")]} photographer={ankur} bottomBar={true}/>
+
+          <ImageSet2 imgList={[require("./img/body/poolside1.jpg")]} photographer={wes} bottomBar={true}/>
+
+          <ImageSet2 imgList={[require("./img/body/eyes1.jpg"), require("./img/body/cabo1.jpg"), require("./img/body/cabo2.jpg")]} photographer={ankur} bottomBar={true}/>
 
           <ImageSet2 imgList={[require("./img/body/wind1.jpg"), require("./img/body/wind2.jpg")]} photographer={ankur} setSite={'http://www.encoreankur.com/blog/2017/1/9/eye-of-the-storm'} bottomBar={true}/>
 
