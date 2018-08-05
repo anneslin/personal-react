@@ -7,7 +7,7 @@
 	transition:0.25s;
 	font-family: 'News Cycle', sans-serif;
   	font-size: .8em;
-
+  	text-decoration: none;
 }
 .item:hover{
 	cursor: pointer;

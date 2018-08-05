@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Menu.css';
 import SubMenu from './SubMenu.jsx';
 
-const creativeSub = ['fine', 'lens', 'body'];
+const creativeSub = ['lens', 'body', 'words'];
 const sweSub = ['blackberry', 'uptop'];
 const learnerSub = ['related coursework', 'currently reading'];
 class Menu extends Component {

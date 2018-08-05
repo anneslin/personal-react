@@ -31,12 +31,18 @@ class Reading extends Component {
   reading(){
     return (
       <div className="smallDescription">
-        The Unbearable Lightness of Being : Milan Kundera
+        1984 : George Orwell
         <br />
         Persuasion : Jane Austen
         <br />
-        My Struggle Book I : Karl Ove Knausgård
         <br />
+        <br />
+        <br />
+        Favorites
+        <br />
+        The Unbearable Lightness of Being : Milan Kundera
+        <br />
+        Norwegian Wood : Haruki Murakami
       </div>
       );
   }

@@ -8,6 +8,9 @@ class SubMenu extends Component {
   }
   
   rendersubMenuItems(item) {
+    if (item === "words") {
+      return <a className="item" href="https://medium.com/@annelin" target="_blank">{item}</a>
+    }
     return <div className="item" onClick={this.props.changeContent.bind(this, item)}>{item}</div>;
   }
   render() { 
